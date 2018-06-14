@@ -6,7 +6,7 @@ Pytorch implementation of Squeezenet model as described in https://arxiv.org/abs
 The definition of Squeezenet model is present model_squeeznet.py. The training procedure resides in the file main.py
 
 Command to train the Squeezenet model on CIFAR 10 data is:
-```python
+```
 python main.py --batch_size 32 --epoch 10
 ```
 

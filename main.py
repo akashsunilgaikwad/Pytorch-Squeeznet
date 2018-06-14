@@ -126,7 +126,7 @@ def main():
 
 
 #    model = Net().to(device)
-    model = model_squeezenet.SqueezeNet().to(device)
+    model = model_squeeznet.SqueezeNet().to(device)
     print(model)
 #    model  = model.SqueezeNet()
     

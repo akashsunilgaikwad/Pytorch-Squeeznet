@@ -12,4 +12,6 @@ python main.py --batch_size 32 --epoch 10
 
 I am currently using SGD for training : learning rate and weight decay are currently updated using a 55 epoch learning rule, this usually gives good performance, but if you want to use something of your own, you can specify it by passing learning_rate and weight_decay parameter like so
 
-```python main.py --batch_size 32 --epoch 10 --learning_rate 1e-3 --epoch_55```
+```
+python main.py --batch_size 32 --epoch 10 --learning_rate 1e-3 --epoch_55
+```

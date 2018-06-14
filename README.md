@@ -6,10 +6,10 @@ Pytorch implementation of Squeezenet model as described in https://arxiv.org/abs
 The definition of Squeezenet model is present model_squeeznet.py. The training procedure resides in the file main.py
 
 Command to train the Squeezenet model on CIFAR 10 data is:
-'''python
+,,,python
 python main.py --batch_size 32 --epoch 10
   end
-'''
+,,,
 
 I am currently using SGD for training : learning rate and weight decay are currently updated using a 55 epoch learning rule, this usually gives good performance, but if you want to use something of your own, you can specify it by passing learning_rate and weight_decay parameter like so
 

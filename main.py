@@ -17,7 +17,7 @@ from torchvision import datasets, transforms
 import torchvision
 import numpy as np
 from torch.autograd import Variable
-import model_squeezenet
+import model_squeeznet
 
 
 seed = 42
